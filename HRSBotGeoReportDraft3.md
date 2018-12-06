@@ -15,11 +15,11 @@ Hence, the purpose of the High Rate Sedimentation Bottom Geometry is to determin
 
 The High Rate Sedimentation Bottom Geometry Team was created to improve sedimentation, which is a crucial part of the water treatment process as it acts as the major removal method for suspended and coagulated minerals, dirt, and particles. The main challenge for the Bottom Geometry Team is finding an optimal bottom geometry of the tube settler to prevent sediment buildup at the bottom. Although the sediment buildup does not affect sedimentation efficiency, this buildup should be avoided to make the cleaning of the apparatus easier. The bottom geometry influences the density of the floc blanket, a dense layer of suspended flocs to which small or uncoagulated particles can attach and subsequently be removed.
 
+<!-- It would be helpful if you included a diagram of the sedimentation tube, as people with no knowledge of AguaClara wouldn't know what you are talking about here. For example, showing an image of the sed tube with a floc blanket to show what a floc blanket is. Also include some background on how the sedimentation tube relates to the plants in Honduras; make the distinction between the lab sed tubes and the sed tanks used in the actual plants -->
+
 However, in the AguaClara lab, the floc blanket would initially form but decay with time, so the performance of the system drastically decreased. After discussions regarding the differences between the design of the sedimentation tanks in the plants and in the lab, the High Rate Sedimentation: Bottom Geometry team was created to determine the optimal shape of the bottom of the sedimentation tubes in the lab to ensure the consistent formation of a stable floc blankets.
 
-<!-- Explain what you mean by "floc blanket decay" i.e. when flocs begin to escape out the top of the sed tube -->
-
-<!-- It would be helpful if you included a diagram of the sedimentation tube, as people with no knowledge of AguaClara wouldn't know what you are talking about here. For example, showing an image of the sed tube with a floc blanket to show what a floc blanket is. Also include some background on how the sedimentation tube relates to the plants in Honduras; make the distinction between the lab sed tubes and the sed tanks used in the actual plants -->
+<!-- Explain what you mean by "floc blanket decay" and "stable floc blankets" - define what these terms mean -->
 
 ## Literature Review and Previous Work
 A previous High Rate Sedimentation Team proposed changes to the bottom geometry of the tube settler in the summer of 2018. The tube settler initially had a flat bottom, but buildup was observed and grew about half an inch in height every ten minutes. A cone was drilled in the bottom of the water inflow tube, but floc buildup at the bottom was still observed. A possible explanation for the floc buildup was that flocs locked together in a ring that was larger than the drilled hole, which could not be broken up by the upflow of water, therefore preventing the resuspension of those flocs.
@@ -69,6 +69,8 @@ As shown in the figure above, the overall experimental setup consists of a flocc
 
 The third pump is used to control the coagulant dose and is also set manually. The final pump is used to pump effluent out of the floc weir to prevent the buildup of too many flocs.
 
+<!-- maybe would be helpful to label pumps 1-4 on your diagram -->
+
 ### Procedure
 The procedure of setting up the HRS Bottom Geometry experimental apparatus is detailed below.
 
@@ -95,9 +97,11 @@ As the issue of the unstable floc blanket is limited to the lab and not the actu
 
 As seen in Figure 4, the AguaClara sedimentation tanks utilize two sloped surfaces to guide settling particles into the central high flow area. The off-centered input of water results in a difference in end results of the settling flocs. The flocs that slide down the slope on the right would join the high inflow stream directed downward, which are subsequently directed back up through the semicircle at the bottom and become resuspsended in the floc blanket. However, the flocs sliding down left side would collide with the flocs in the upward stream to form larger flocs to be resuspended in the blanket.
 
-<!-- Maybe label your diagram above to make this section more clear -->
+<!-- Maybe label your diagram above to make this section more clear. For example, add arrows to show direction of water flow and the direction flocs are sliding -->
 
 Inspired by this design, the HRS Bottom Geometry Team along with the Fluoride Auto Team designed the "Symmetrical AguaClara Plant Design."
+
+<!-- Include a link to the OnShape model that Fluoride Auto designed -->
 
 ![Symmetrical AguaClara Plant Design](https://raw.githubusercontent.com/AguaClara/HRS-Bot-Geo/master/Images/fluoride%20auto%20insert.PNG)
 **Figure 5: Filter insert with symmetrical, rectangular cross sections and a sloped top portion.**
@@ -111,7 +115,7 @@ Although the conical shape was tested by the HRS Summer 2018 team, the centered 
 ![Symmetrical AguaClara Plant Design](https://raw.githubusercontent.com/AguaClara/HRS-Bot-Geo/master/Images/off%20center%20cone%20in%20cylinder%20CAD.PNG)  
 **Figure 6: Off-center conical insert with circular cross sections and water inlet at the tip.**
 
-<!-- Specify which design you ultimately decided to go with, and explain that decision -->
+<!-- Specify which design you ultimately decided to go with, and explain that decision. It looks like you decided to go with design 1, but maybe add a couple sentences here at the end of the methods section to clarify that decision. Also, I'm wondering if the "squished" triangular design from the Fluoride team above worked well, was that factored into your new bottom geo design at all? Maybe mention that in this section, and explain why you didn't go with that design, or if that influenced your design 2 in any way. -->
 
 ## Results and Analysis
 The first experiment run by the Bottom Geometry team was the baseline control experiment at 3 mm/s upflow velocity.
@@ -119,7 +123,7 @@ The first experiment run by the Bottom Geometry team was the baseline control ex
 ![Failed Control Experiment](https://github.com/AguaClara/HRS-Bot-Geo/blob/master/Images/Baseline%20Attempt.PNG?raw=true)
 **Figure 7: Graph of failed control experiment with high effluent turbidity.**
 
-As seen in the graph, the turbidity of the effluent lies between 30 NTU and 60 NTU for the first 5.25 hours. In the beginning before the first hour, a floc blanket formed and stabilized. However, the blanket began to decay fairly quickly, which is indicated by the rapid increase of effluent turbidity. Upon closer analysis, it was found that the improper calibration of the pumps caused the floc blanket to fail due to excessively high flowrate through the system. Hence, another trial was set with the recalibrated pump.
+As seen in the graph, the turbidity of the effluent lies between 30 NTU and 60 NTU for the first 5.25 hours. In the beginning before the first hour, a floc blanket formed and stabilized. However, the blanket began to decay fairly quickly, which is indicated by the rapid increase of effluent turbidity. Upon closer analysis, it was found that the improper calibration of the pumps caused the floc blanket to fail due to excessively high flow rate through the system. Hence, another trial was set with the recalibrated pump.
 
 ![Successful Experiment of 3mm](https://github.com/AguaClara/HRS-Bot-Geo/blob/master/Images/3mm%20original%20flocc%20updated.PNG?raw=true)
 **Figure 8: Effluent turbidity over time for a 3 mm/s upflow velocity experiment.**
